@@ -1,0 +1,10 @@
+header {
+    color: black;
+    background-color: salmon;
+    padding: 10px;
+}
+
+h1.header-text {
+    justify-content: center;
+    display: flex;
+}
