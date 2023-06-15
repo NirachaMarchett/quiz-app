@@ -1,8 +1,60 @@
-header {
-  color: black;
-  background-color: salmon;
-  padding: 10px;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
-.section {
-  background-color: black;
+
+body {
+  flex-wrap: wrap;
+}
+
+header {
+  color: white;
+  background-color: lightseagreen;
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  border: solid lightseagreen;
+  border-radius: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.card__bookmark-button {
+  border: solid black;
+}
+
+.question {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card__show-answer-button {
+  background-color: lightseagreen;
+  border: solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.card__tage-list {
+  display: flex;
+  list-style-type: none;
+  gap: 5px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.list-item {
+  font-size: 15px;
+  font-family: sans-serif;
+  border: solid lightseagreen;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
 }
