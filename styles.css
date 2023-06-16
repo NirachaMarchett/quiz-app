@@ -72,12 +72,20 @@ li {
   font-family: sans-serif;
 }
 
+footer button {
+  border: none;
+  background-color: lightseagreen;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: white;
+}
+
 .footer {
   position: fixed;
   display: flex;
   width: 100vw;
   bottom: 0;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: lightseagreen;
-  padding: 15px;
+  padding: 10px;
 }
