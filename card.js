@@ -64,7 +64,7 @@ const showAnswerButton = document.querySelector(
   '[data-js="card__show-answer-button"]'
 );
 
-const answertext = document.querySelector('[data-js="card__answer-text"]');
+const answertext = document.querySelector('[data-js="answer-text"]');
 
 showAnswerButton.addEventListener("click", () => {
   answertext.classList.add("red-color");
