@@ -56,7 +56,7 @@ main {
   background-color: white;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .question {
@@ -70,13 +70,17 @@ main {
 }
 
 .card__bookmark-button {
-  font-size: 45px;
-  color: lightslategray;
+  font-size: 50px;
+  color: teal;
   background-color: Transparent;
   border: none;
   position: absolute;
   right: -5px;
   top: -25px;
+}
+
+.card__bookmark-button:hover {
+  color: antiquewhite;
 }
 
 .card__show-answer-button {
@@ -93,8 +97,12 @@ main {
   top: 50%;
 }
 
+.card__show-answer-button:hover {
+  border: solid black;
+}
+
 .card__answer-text {
-  color: lightseagreen;
+  color: black;
   font-family: monospace;
   font-size: 15px;
   text-align: center;
@@ -133,6 +141,10 @@ footer button {
   background-repeat: no-repeat;
   font-size: 30px;
   color: lightseagreen;
+}
+
+footer button:hover {
+  border: solid black;
 }
 
 .footer {
