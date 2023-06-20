@@ -1,7 +1,62 @@
 console.clear();
+// variables for showAnswerButton
 
-//Variables for bookmark buttons
-/*
+const showAnswerButton1 = document.querySelector(
+  '[data-js="card__show-answer-button1"]'
+);
+const showAnswerButton2 = document.querySelector(
+  '[data-js="card__show-answer-button2"]'
+);
+const showAnswerButton3 = document.querySelector(
+  '[data-js="card__show-answer-button3"]'
+);
+const showAnswerButton4 = document.querySelector(
+  '[data-js="card__show-answer-button4"]'
+);
+const showAnswerButton5 = document.querySelector(
+  '[data-js="card__show-answer-button5"]'
+);
+const showAnswerButton6 = document.querySelector(
+  '[data-js="card__show-answer-button6"]'
+);
+
+//variables for answerText
+
+const answertext1 = document.querySelector('[data-js="answer-text1"]');
+const answertext2 = document.querySelector('[data-js="answer-text2"]');
+const answertext3 = document.querySelector('[data-js="answer-text3"]');
+const answertext4 = document.querySelector('[data-js="answer-text4"]');
+const answertext5 = document.querySelector('[data-js="answer-text5"]');
+const answertext6 = document.querySelector('[data-js="answer-text6"]');
+
+// add eventlistener to show answer
+
+showAnswerButton1.addEventListener("click", () => {
+  answertext1.classList.toggle("lightseagreen");
+});
+
+showAnswerButton2.addEventListener("click", () => {
+  answertext2.classList.toggle("lightseagreen");
+});
+
+showAnswerButton3.addEventListener("click", () => {
+  answertext3.classList.toggle("lightseagreen");
+});
+
+showAnswerButton4.addEventListener("click", () => {
+  answertext4.classList.toggle("lightseagreen");
+});
+
+showAnswerButton5.addEventListener("click", () => {
+  answertext5.classList.toggle("lightseagreen");
+});
+
+showAnswerButton6.addEventListener("click", () => {
+  answertext6.classList.toggle("lightseagreen");
+});
+
+//variables for bookmark
+
 const bookmarkButton1 = document.querySelector(
   '[data-js="card__bookmark-button1"]'
 );
@@ -21,51 +76,23 @@ const bookmarkButton6 = document.querySelector(
   '[data-js="card__bookmark-button6"]'
 );
 
-//Add event listener for bookmark buttons
+// add eventlistener to bookmarks
 
-//variables for answer button
-
-const showAnswerButton = document.querySelector(
-  '[data-js="card__show-answer-button"]'
-);
-
-/*const showAnswerButton2 = document.querySelector(
-  '[data.js="card__show-answer-button"]'
-);
-const showAnswerButton3 = document.querySelector(
-  '[data.js="card__show-answer-button"]'
-);
-const showAnswerButton4 = document.querySelector(
-  '[data.js="card__show-answer-button"]'
-);
-const showAnswerButton5 = document.querySelector(
-  '[data.js="card__show-answer-button"]'
-);
-const showAnswerButton6 = document.querySelector(
-  '[data.js="card__show-answer-button"]'
-);
-*/
-
-//Add event listener for bookmark buttons
-
-// const answertext = document.querySelector('[data-js="card__answer-text"]');
-
-/* showAnswerButton.addEventListener("click", () => {
-  answertext.classList.toggle("green-text");
-}); */
-
-/* document.getElementsByClassName("card__show-answer-button").onclick =
-  function () {
-    document.getElementsByClassName("card__answer-text").style.color = "green";
-  };
-*/
-
-const showAnswerButton = document.querySelector(
-  '[data-js="card__show-answer-button"]'
-);
-
-const answertext = document.querySelector('[data-js="answer-text"]');
-
-showAnswerButton.addEventListener("click", () => {
-  answertext.classList.add("red-color");
+bookmarkButton1.addEventListener("click", () => {
+  bookmarkButton1.classList.toggle("teal");
+});
+bookmarkButton2.addEventListener("click", () => {
+  bookmarkButton2.classList.toggle("teal");
+});
+bookmarkButton3.addEventListener("click", () => {
+  bookmarkButton3.classList.toggle("teal");
+});
+bookmarkButton4.addEventListener("click", () => {
+  bookmarkButton4.classList.toggle("teal");
+});
+bookmarkButton5.addEventListener("click", () => {
+  bookmarkButton5.classList.toggle("teal");
+});
+bookmarkButton6.addEventListener("click", () => {
+  bookmarkButton6.classList.toggle("teal");
 });

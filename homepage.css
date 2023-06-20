@@ -102,13 +102,24 @@ main {
 }
 
 .card__answer-text {
-  color: black;
+  color: white;
   font-family: monospace;
   font-size: 15px;
   text-align: center;
   position: absolute;
   top: 250px;
 }
+
+/* new class add after using eventlistener in Java */
+.teal {
+  color: teal;
+}
+
+.lightseagreen {
+  color: lightseagreen;
+}
+
+/* new class add after using eventlistener in Java */
 
 ul {
   padding: 0;
