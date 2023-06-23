@@ -143,6 +143,8 @@ li {
 
 footer button {
   border: none;
+  border-radius: 10px;
+  width: 50px;
   background-color: white;
   background-repeat: no-repeat;
   font-size: 30px;

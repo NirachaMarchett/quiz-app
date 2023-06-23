@@ -174,10 +174,15 @@ label:active:after {
 
 footer button {
   border: none;
+  width: 50px;
   background-color: white;
   background-repeat: no-repeat;
   font-size: 30px;
   color: lightseagreen;
+}
+
+footer button:hover {
+  border: solid black;
 }
 
 .footer {

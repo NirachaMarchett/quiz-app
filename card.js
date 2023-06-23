@@ -33,26 +33,62 @@ const answertext6 = document.querySelector('[data-js="answer-text6"]');
 
 showAnswerButton1.addEventListener("click", () => {
   answertext1.classList.toggle("lightseagreen");
+
+  if (answertext1.classList.contains("lightseagreen")) {
+    showAnswerButton1.textContent = "Hide Answer";
+  } else {
+    showAnswerButton1.textContent = "Show Answer";
+  }
 });
 
 showAnswerButton2.addEventListener("click", () => {
   answertext2.classList.toggle("lightseagreen");
+
+  if (answertext2.classList.contains("lightseagreen")) {
+    showAnswerButton2.textContent = "Hide Answer";
+  } else {
+    showAnswerButton2.textContent = "Show Answer";
+  }
 });
 
 showAnswerButton3.addEventListener("click", () => {
   answertext3.classList.toggle("lightseagreen");
+
+  if (answertext3.classList.contains("lightseagreen")) {
+    showAnswerButton3.textContent = "Hide Answer";
+  } else {
+    showAnswerButton3.textContent = "Show Answer";
+  }
 });
 
 showAnswerButton4.addEventListener("click", () => {
   answertext4.classList.toggle("lightseagreen");
+
+  if (answertext4.classList.contains("lightseagreen")) {
+    showAnswerButton4.textContent = "Hide Answer";
+  } else {
+    showAnswerButton4.textContent = "Show Answer";
+  }
 });
 
 showAnswerButton5.addEventListener("click", () => {
   answertext5.classList.toggle("lightseagreen");
+
+  if (answertext5.classList.contains("lightseagreen")) {
+    showAnswerButton5.textContent = "Hide Answer";
+  } else {
+    showAnswerButton5.textContent = "Show Answer";
+  }
 });
 
 showAnswerButton6.addEventListener("click", () => {
   answertext6.classList.toggle("lightseagreen");
+
+  if (answertext6.classList.contains("lightseagreen")) {
+    showAnswerButton6.textContent = "Hide Answer";
+  } else {
+    showAnswerButton6.textContent = "Show Answer";
+  }
 });
 
 //variables for bookmark
