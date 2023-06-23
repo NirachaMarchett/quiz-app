@@ -132,3 +132,5 @@ bookmarkButton5.addEventListener("click", () => {
 bookmarkButton6.addEventListener("click", () => {
   bookmarkButton6.classList.toggle("teal");
 });
+
+//dark mode

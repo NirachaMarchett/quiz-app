@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="/cardform.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>It's time to</h1>
+      <img class="quiz-image" src="/assets/quiz-transparent-bg.png" />
+    </header>
+    <main>
+      <section id="formSection">
+          <button class="plusIcon">
+            <i class="fa-regular fa-circle-plus"></i>
+          </button>
+          <h1 class="cardHeader">Create New Question</h1>
+        
+          <fieldset class="formInformation">
+            <label for="YourQuestion">Your Question:</label>
+            <textarea
+              name="yourQuestion"
+              id="yourQuestion"
+              cols="45"
+              rows="3"
+            ></textarea>
+
+            <label for="YourAnswer">Your Answer:</label>
+            <textarea
+              name="yourAnswer"
+              id="yourAnswer"
+              cols="45"
+              rows="3"
+            ></textarea>
+
+            <label for="tag">Tag:</label>
+            <input type="text" name="tag" id="tag" />
+        </fieldset>
+          <button type="submit" class="addButton">Add Question</button>
+     </section>
+    </main>
+    <footer class="footer">
+        <a href="/homepage.html"><button class="footer-button"><i class="fa-regular fa-house"></i></button></a>
+        <a href="/bookmark.html"><button class="footer-button"><i class="fa-solid fa-bookmark"></i></button></i></a>
+        <a href="/cardform.html"><button class="footer-button"><i class="fa-regular fa-circle-plus"></i></button></a>
+        <a href="/profile.html"><button class="footer-button"><i class="fa-solid fa-user"></i></button></a>
+      </footer>
+  </body>
+  <script src="/cardform.js"></script>
+</html>

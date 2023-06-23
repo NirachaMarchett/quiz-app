@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  height: 200px;
+  padding: 20px;
+  width: 100vw;
+  top: 0;
+  background-image: linear-gradient(35deg, #ccffff, #ffcccc);
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+h1 {
+  position: absolute;
+  right: 50%;
+  top: 25%;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.quiz-image {
+  position: absolute;
+  width: 250px;
+  top: 2%;
+  right: 40%;
+  left: 50%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 300px;
+}
+
+#formSection {
+  position: relative;
+  top: 200px;
+  margin: 30px;
+  margin-bottom: 10px;
+  height: 500px;
+  width: 400px;
+  padding: 10px 25px 10px 25px;
+  border: 10px solid lightseagreen;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  opacity: 1;
+}
+
+.plusIcon {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  font-size: 50px;
+  color: lightseagreen;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.plusIcon:hover {
+  border: black;
+}
+
+.cardHeader {
+  position: absolute;
+  top: 90px;
+  left: 20%;
+  right: 25%;
+  width: 250px;
+  margin: 0px;
+}
+
+.formInformation {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 150px;
+  left: 2%;
+  width: 300px;
+  margin: 0px;
+  border: none;
+}
+
+label {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+textarea {
+  margin: 0px;
+}
+#yourQuestion {
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 25px 0px;
+}
+
+#yourAnswer {
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 25px 0px;
+}
+
+#tag {
+  position: relative;
+  position: absolute;
+  bottom: -15px;
+  width: 340px;
+  border: 1px solid grey;
+}
+
+.addButton {
+  position: absolute;
+  bottom: 15px;
+  left: 28%;
+  width: 170px;
+  font-size: 15px;
+  font-family: monospace;
+  color: white;
+  background-color: lightseagreen;
+  padding: 5px 25px 5px 25px;
+  border: solid white;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.addButton:hover {
+  border: solid black;
+}
+
+footer button {
+  border: none;
+  border-radius: 10px;
+  width: 50px;
+  background-color: white;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: lightseagreen;
+}
+
+footer button:hover {
+  border: solid black;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  bottom: 0;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
