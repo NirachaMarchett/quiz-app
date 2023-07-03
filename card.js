@@ -133,4 +133,10 @@ bookmarkButton6.addEventListener("click", () => {
   bookmarkButton6.classList.toggle("teal");
 });
 
+/*
+use function instead
+- use querySelectorAll or getElementsByclassName
+- use forEach()
+
+*/
 //dark mode
